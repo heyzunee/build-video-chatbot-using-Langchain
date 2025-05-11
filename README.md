@@ -2,7 +2,6 @@
 
 This is an AI-powered chatbot app built with **Streamlit**. The chatbot serves as an assistant, allowing users to ask anything about content insights extracted from videos.
 
----
 
 ## Features
 
@@ -12,7 +11,7 @@ This is an AI-powered chatbot app built with **Streamlit**. The chatbot serves a
 - LLM model: `meta-llama/llama-3.1-8b-instruct`
 - Simple and intuitive web interface built with `streamlit`
 
----
+
 
 ## Tech Stack
 
@@ -23,7 +22,7 @@ This is an AI-powered chatbot app built with **Streamlit**. The chatbot serves a
 - `chromadb` for vector search
 - `streamlit` for web interface
 
----
+
 
 ## Installation with Docker
 
@@ -40,7 +39,7 @@ docker build -t video-chatbot:1.0 .
 docker run -p 8501:8501 --gpus all video-chatbot:1.0
 ```
 
----
+
 
 ## Access the App
 
