@@ -1,0 +1,27 @@
+# yt-dlp==2025.3.31
+# faster-whisper==1.1.1
+# ffmpeg-python==0.2.0
+# chromadb==1.0.6
+# langchain==0.3.24
+# langchain-community==0.3.22
+# langchain-huggingface==0.1.2
+# transformers==4.51.3
+# bitsandbytes==0.45.5
+# huggingface_hub==0.30.2
+# triton==3.1.0
+# sentence-transformers==4.1.0
+# streamlit==1.44.1
+
+yt-dlp
+faster-whisper
+ffmpeg-python
+chromadb
+langchain
+langchain-community
+langchain-huggingface
+transformers
+bitsandbytes
+huggingface_hub
+triton
+sentence-transformers
+streamlit
