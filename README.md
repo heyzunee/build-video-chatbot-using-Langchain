@@ -1,4 +1,4 @@
-# Chatbot for YouTube Video using RAG
+# Build Video Chatbot using Langchain
 
 This is an AI-powered chatbot app built with **Streamlit**. The chatbot serves as an assistant, allowing users to ask anything about content insights extracted from videos.
 
