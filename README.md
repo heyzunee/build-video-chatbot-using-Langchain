@@ -2,6 +2,7 @@
 
 This is an AI-powered chatbot app built with **Gradio**. The chatbot serves as an assistant, allowing users to ask anything about content insights extracted from videos.
 
+![Chatbot UI](assets/chatbot-ui.png)
 
 ## Features
 
