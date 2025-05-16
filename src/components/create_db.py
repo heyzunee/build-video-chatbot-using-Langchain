@@ -25,7 +25,9 @@ class VectorDB:
             persist_directory=self.persist_directory,
         )
 
-        logger.info("Number of documents in vectorstore:", self.vectorstore._collection.count())
+        logger.info(
+            "Number of documents in vectorstore:", self.vectorstore._collection.count()
+        )
 
     def retrieve(self):
         return self.vectorstore.as_retriever()

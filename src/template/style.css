@@ -1,0 +1,113 @@
+
+.gradio-container {
+    font-weight: 600;
+    text-shadow: 0 0 0.1px rgba(0,0,0,0.1);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#main-container {
+    max-width: 1200px;
+    height: auto;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+h1, h2, h3 {
+    font-weight: 800 !important;
+    letter-spacing: -0.01em !important;
+}
+
+#upload-container {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.upload-container__file [data-testid="block-label"] {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.upload-container__file {
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    border: 2px solid #333 !important;
+}
+
+.upload-container__file:hover {
+    border-color: #e63946 !important;
+}
+
+.upload-container__link {
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+.upload-container__button {
+    background-color: #e63946 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    border: none !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.upload-container__button:hover {
+    background-color: #c1121f !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.upload-container__status {
+    color: #aaa;
+    min-height: 48px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible !important;
+    white-space: normal !important; 
+    word-wrap: break-word !important;
+}
+
+.status.processing {
+    background-color: #333;
+    color: #f0ad4e;
+}
+
+.status.success {
+    background-color: #1a3c2d;
+    color: #2ecc71;
+}
+
+.status.error {
+    background-color: #3c1a1a;
+    color: #e74c3c;
+}
+
+
+#chat-container {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#chatbot {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    border: 1px solid #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
