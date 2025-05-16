@@ -113,5 +113,4 @@ if __name__ == "__main__":
             outputs=[video_chunks, chat_input, status_output],
         )
 
-    # demo.launch(share=True)
-    demo.launch(server_name="0.0.0.0", server_port=8501)
+    demo.launch()
