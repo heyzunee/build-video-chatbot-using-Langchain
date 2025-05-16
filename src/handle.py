@@ -1,12 +1,12 @@
 import logging
 
 import gradio as gr
-from config import PROJECT_NAME
 from langchain.schema import Document
 from predict import Predict
 from src.components.extract_audio import extract_audio
 from src.components.split_document import Splitter
 from src.components.transcribe import Transcriber
+from src.config import PROJECT_NAME
 
 logger = logging.getLogger(PROJECT_NAME)
 

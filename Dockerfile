@@ -20,5 +20,5 @@ RUN pip install --upgrade pip setuptools wheel && \
 COPY . .
 
 EXPOSE 8501
-# ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--browser.serverAddress=192.168.11.11"]
 ENTRYPOINT ["python", "app.py"]
+# ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--browser.serverAddress=192.168.11.11"]
