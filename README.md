@@ -1,6 +1,6 @@
 # Build Video Chatbot using Langchain
 
-This is an AI-powered chatbot app built with **Streamlit**. The chatbot serves as an assistant, allowing users to ask anything about content insights extracted from videos.
+This is an AI-powered chatbot app built with **Gradio**. The chatbot serves as an assistant, allowing users to ask anything about content insights extracted from videos.
 
 
 ## Features
@@ -9,7 +9,7 @@ This is an AI-powered chatbot app built with **Streamlit**. The chatbot serves a
 - Embedding model: `infloat/multilingual-e5-small`
 - Search knowledge base using `ChromaDB` vector store
 - LLM model: `meta-llama/llama-3.1-8b-instruct`
-- Simple and intuitive web interface built with `streamlit`
+- Simple and intuitive web interface built with `Gradio`
 
 
 
