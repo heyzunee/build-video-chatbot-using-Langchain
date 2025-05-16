@@ -59,6 +59,7 @@ class LLMModel:
 
     def qa_chain(self):
         logger.info("Setting up QA chain...")
+        
         # Define the prompt template for RetrievalQA
         self.prompt_template = (
             "You are a smartly assistant.\n\n"

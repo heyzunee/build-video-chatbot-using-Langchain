@@ -25,3 +25,5 @@ huggingface_hub
 triton
 sentence-transformers
 streamlit
+gradio
+# sudo apt update && sudo apt install -y ffmpeg
