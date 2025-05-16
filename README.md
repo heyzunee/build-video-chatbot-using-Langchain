@@ -20,7 +20,7 @@ This is an AI-powered chatbot app built with **Gradio**. The chatbot serves as a
 - `transformers` from Hugging Face
 - `langchain`, `langchain-community`, `langchain-huggingface`
 - `chromadb` for vector search
-- `streamlit` for web interface
+- `Gradio` for web interface
 
 
 
